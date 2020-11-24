@@ -1,0 +1,303 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("../images/bg.jpg");
+    background-repeat: repeat-y;
+    background-size: 1500px 1000px;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Anton', sans-serif;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 42px;
+    top: 10px;
+    
+}
+.left img{
+    width: 320px;
+    height: 182px;
+}
+
+.mid{
+    background-color:rgb(20, 20, 20);
+    border-radius: 8px;
+    border: 2px solid rgb(73, 73, 73);
+    color: aliceblue;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    width: 35%;
+    margin: 20px auto;
+    font-family: fantasy;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: #fdfafa;
+    text-decoration: none;
+    padding: 8px 6px;
+    margin: 4px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: rgb(71, 73, 80);
+    text-decoration: underline;
+    padding: 8px 6px;
+    margin: 4px;
+    text-emphasis: bold;
+    background-color: lemonchiffon;
+    border-radius: 8px;
+}
+.btn{
+    border: 3px solid gold;
+    margin: 2px;
+    padding: 11px 11px;
+    font-size: 15px;
+    border-radius: px;
+    box-shadow: 1px 2px 4px black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn a{
+    color: rgb(0, 0, 49);
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn:hover{
+    color: goldenrod;
+    background-color: rgb(255, 208, 189);
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+.container{
+    display: inline-block;
+    border-radius: 31px;
+    width: 25%;
+    background-color: rgb(251, 209, 181);
+    border: 4px solid rgb(73, 73, 73);
+    margin: 92px 40px;
+    padding: 10px 10px;
+}
+h1{
+    color: goldenrod;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: 6px auto;
+    border: 2px solid rgb(0, 0, 54);
+    padding: 7px 8px;
+    border-radius: 20px;
+}
+#finish{
+    color: blanchedalmond;
+     text-align: center;
+    display: block;
+    width: 80%;
+    margin: 6px auto;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 7px 8px;
+    background-color: orangered;
+    text-emphasis: bold;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-emphasis: bold;
+}
+#finish:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(247, 53, 53);
+    font-size: 13px;
+    
+}
+
+.container:hover{
+    transform: translate(1px, 1px);
+    box-shadow: 2px 2px 20px whitesmoke;
+}
+.side-panel{
+    display: block;
+    border-radius: 31px;
+    width: 34%;
+    padding: 10px 10px;
+    position: absolute;
+    top: 170px;
+    right: 100px;
+}
+
+.box-1{
+    border: 4px solid red;
+    background-color:rgb(251, 108, 51);
+    margin: 3px 2px;
+    padding: 3px 3px;
+    height: 32px;
+    width: 348px;
+    border-radius: 10px;
+    text-align: center;
+    animation: movebar 2s ease-in-out 0s  8 forwards ;
+}
+.box-2{
+    border: 4px solid blue;
+    background-color: rgb(99, 199, 233);
+    margin: 2px 2px;
+    padding: 3px 3px;
+    height: 32px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    animation: movebar 2s ease-in-out 0s  8 forwards ;
+}
+.box-3{
+    background-color: rgb(0, 156, 0);
+    border: 4px solid black;
+    margin: 2px 2px;
+    padding: 3px 3px;
+    height: 32px;
+    width: 348px;
+    border-radius: 10px;
+    text-align: center;
+    animation: movebar 2s ease-in-out 0s 8 forwards ;
+}
+.box-4{
+    background-color: rgb(236, 31, 255); 
+    border: 4px solid rgb(94, 0, 156);
+    margin: 2px 2px;
+    padding: 3px 3px;
+    height: 32px;
+    width: 348px;
+    border-radius: 10px;
+    text-align: center;
+    animation: movebar 2s ease-in-out 0s 8 forwards ;
+}
+.box-5{
+    background-color: silver;
+    border: 4px solid grey;
+    margin: 2px 2px;
+    padding: 3px 3px;
+    height: 32px;
+    width: 348px;
+    border-radius: 10px;
+    text-align: center;
+    animation: movebar 2s ease-in-out 0s 8 forwards ;
+}
+.box-6{
+    background-color: yellow;
+    border: 4px solid rgb(255, 238, 0);
+    margin: 2px 2px;
+    padding: 3px 3px;
+    height: 32px;
+    width: 348px;
+    border-radius: 10px;
+    text-align: center;
+    animation: movebar 2s ease-in-out 0s 8 forwards ;
+}
+
+@keyframes movebar{
+    from{
+        width: 400px;
+    }
+    to{
+        width: 500px;
+    }
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#StarterEvo{
+    display: flex;
+    margin: 5px 5px;
+    padding: 4px 4px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    border: 3px solid rgb(255, 55, 55);
+}
+.pokebox{
+    background-color: orange;
+}
+
+#starterlist{
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+#Starter-selection select{
+    padding: 15px 15px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: 3px solid brown;
+    font-size: 14px;
+    background-color: rgb(245, 205, 179);
+}
+#Starter-selection select:hover{
+    transform: scale(1.1);
+}
+
+#Starter-selection::before{
+    content:"";
+    position: absolute;
+    background: url("bg2.jpg");
+    height: 30%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+p{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+}
+footer{
+    font-size: 13px;
+    background: black;
+    padding: 18px 10px;
+    color: white;
+    position: sticky;
+    bottom: 0%;
+    opacity: .9;
+    text-align: center;
+}
+
+#fmsgs{
+    display: none;
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    border: 2px solid red;
+    color: red;
+    background-color: rgb(247, 156, 156);
+    margin: 10px 20px;
+    padding: 10px 25px;
+}
