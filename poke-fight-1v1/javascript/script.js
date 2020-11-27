@@ -1,3 +1,13 @@
+var song = new Audio();
+song.src = "music/bgmusic.mp3";
+const playSong =()=>{
+     song.play();
+
+}
+const pauseSong=()=>{
+    song.pause();
+}
+
 function login(){
     let username = document.getElementById("username").value;
     let password = document.getElementById("password").value;
@@ -23,7 +33,7 @@ function login(){
     }
     
     else {
-        alert("Login Failed! Wrong Username/Password Comination");
+        alert("Login Failed! Wrong Username/Password Combination");
         window.open("login.html");
 
     }
